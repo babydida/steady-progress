@@ -7,6 +7,8 @@ public class Login{
 class Myclass{
 	public static void main(String [] args){
 		Login cow = new login();
+		Login dog = new Login();
+		dog.scream();
 		cow.scream();
 	}
 }
